@@ -1,23 +1,46 @@
 # phonepe-Data-Visualization
 
-#Problem Statement
-The Phonepe pulse Github repository contains a vast collection of metrics and statistics. The objective of this project is to extract and process this data, enabling the generation of user-friendly visualizations that provide valuable insights.
+# 📱 PhonePe Pulse Data Visualization and Business Case Study
 
-#Technology Stack Used:
-1.Python
-2.MySQL
-3.Streamlit
-4.Github Cloning
-5.Geo Visualisation
-6.Dynamic Updation
-7.Power Bi Visualization
+This project visualizes and analyzes transaction data from the **PhonePe Pulse** platform. It involves a comprehensive case study of India's digital payment ecosystem using real-world data structured in MySQL, explored via Streamlit, and visualized using Power BI.
 
-#Approach:
+---
 
-1.Data Extraction: The data is obtained from the Phonepe pulse Github repository using scripting techniques and cloned for further processing.
-2.Data Transformation: The extracted data is formatted into a suitable structure, ensuring it is clean and ready for analysis. Pre-processing tasks may be performed as necessary.
-3.Database Integration: The transformed data is inserted into a MySQL database, offering efficient storage and retrieval capabilities.
-4.Geo Visualization Dashboard: Python's Streamlit and Plotly libraries are utilized to create an interactive and visually appealing dashboard. This dashboard presents the data in real-time, enabling users to explore the insights effectively.
-5.Database Integration with the Dashboard: The relevant data is fetched from the MySQL database and seamlessly integrated into the dashboard, ensuring the displayed information is up-to-date and accurate.
-6.User-Selectable Dropdown Options: The dashboard incorporates a home page and using different charts to visualize a 5 Bussiness case studies
-7.PowerBi Visualization: By using PowerBI application created a dashboard of bussiness case study visualization by connecting MYSQL.
+## 📌 Project Objective
+
+- Analyze PhonePe transaction trends across Indian states and districts.
+- Build insightful business case study visualizations.
+- Create an interactive dashboard using **Streamlit** and **Power BI**.
+- Plot transaction/user activity on a 3D Geo Map of India.
+
+---
+
+## 🧠 Key Features
+
+✅ 9 Business Case Study Scenarios:
+1. Transaction Dynamics  
+2. Device Usage Trends  
+3. Insurance Growth Potential  
+4. User Registration Analysis  
+5. Insuranance Transactions Insights 
+     
+
+
+✅ Technologies Used:
+- **MySQL** – Database storage and query execution
+- **Python + Streamlit** – Interactive dashboard app
+- **Power BI** – BI-grade report building and map visualizations
+- **Plotly & Pandas** – Graphs and analysis
+  
+
+---
+
+## 📂 Project Structure
+
+📁 phonepe-project/
+│
+├── phonepe.py # Main Streamlit app
+├── phonepe.sql # All table creation and data insert scripts
+├── Business Case Study.docx # Scenario definitions and insights
+├── powerbi_report.pbix # Power BI dashboard file
+├── state_lat_lon.sql # State coordinate mapping table
