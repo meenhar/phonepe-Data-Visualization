@@ -44,3 +44,6 @@ This project visualizes and analyzes transaction data from the **PhonePe Pulse**
 ├── Business Case Study.docx # Scenario definitions and insights
 ├── powerbi_report.pbix # Power BI dashboard file
 ├── state_lat_lon.sql # State coordinate mapping table
+
+## Conclusion
+This project provides a clear visualization of PhonePe's digital payment data across India. Using MySQL, Streamlit, and Power BI, we analyzed trends in transactions, user growth, insurance, and device usage. The dashboards and geo maps offer useful insights for understanding regional payment behavior and business opportunities in the digital economy.
